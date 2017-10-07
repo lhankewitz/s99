@@ -1,4 +1,4 @@
-package com.sepoe._99_2._1
+package com.sepoe._99._1
 
 object LastElementOfList {
 
