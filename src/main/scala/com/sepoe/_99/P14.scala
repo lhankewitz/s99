@@ -1,4 +1,4 @@
-package com.sepoe._99_2
+package com.sepoe._99
 
 /**
 Duplicate the elements of a list.

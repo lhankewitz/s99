@@ -1,6 +1,6 @@
-package com.sepoe._99_2
+package com.sepoe._99
 
-import com.sepoe._99_2.P09._
+import P09._
 /**
  *
 Run-length encoding of a list.
