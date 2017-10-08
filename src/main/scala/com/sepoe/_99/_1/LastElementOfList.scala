@@ -29,8 +29,10 @@ object LastElementOfList {
   def last3(l:List[Int]):Int = {
 	  l(l.length -1)
   }
-  
-   def last4(l:List[Int]):Int = l match {
+
+  def error(str: String): Nothing = throw new IllegalArgumentException("empty list does not have a last element")
+
+  def last4(l:List[Int]):Int = l match {
 	   case Nil => error("Undefined")
 	   case x :: Nil => x
 	   case x :: rest => last4(rest)

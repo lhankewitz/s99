@@ -1,9 +1,9 @@
 package com.sepoe
 
+// I just accumulated old code, can't remember where this is comming from. :-(
 object Euler29 {
 
   def main(args: Array[String]): Unit = {  
-  
 
    val result = scala.collection.mutable.Set[BigInt]()
    
@@ -13,11 +13,6 @@ object Euler29 {
     
     
     println((for(a <- 2 to 100; b<- 2 to 100) yield BigInt(a).pow(b)).distinct.size)
-    
-    println((for(a <- (2 to 100); b<- 2 to 100) yield BigInt(a).pow(b)).distinct.size)
-    
   }
-  
-  
 
 }
